@@ -1,5 +1,6 @@
 # 🌲 Terraria & TShock Server Manager
 > **Автономный графический серверный комплекс Terraria 1.4.5.8 & TShock 6.2.1 с кибер-панелью управления**  
+> *Разработчик: **Liebe** (Discord: `liebe213`)*
 
 [![Release](https://img.shields.io/github/v/release/Liebezx/Terraria-Server-Panel?color=00ff9d&label=Installer%20v2.0)](https://github.com/Liebezx/Terraria-Server-Panel/releases/latest)
 [![Terraria Version](https://img.shields.io/badge/Terraria-1.4.5.8-green.svg?logo=terraria)](https://terraria.org/)
