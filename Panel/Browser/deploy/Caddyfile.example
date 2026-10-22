@@ -1,0 +1,4 @@
+# Replace panel.example.net with a domain whose DNS A record points to the VPS.
+panel.example.net {
+    reverse_proxy 127.0.0.1:8765
+}

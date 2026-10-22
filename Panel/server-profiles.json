@@ -1,0 +1,10 @@
+{
+  "profiles": [
+    {
+      "id": "default",
+      "name": "Основной",
+      "world": "",
+      "config_dir": "tshock"
+    }
+  ]
+}

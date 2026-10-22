@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# PyInstaller / Build outputs
+build/
+dist/
+localpycs/
+*.spec
+
+# Backups and temporary files
+*.bak
+*.bak2
+Backups/
+Worlds/Backups/
+RemovedWorlds/
+
+# Large third-party redistributables (these go to Releases)
+dotnet-runtime-*.zip
+TShock-*.zip
+dotnet/
