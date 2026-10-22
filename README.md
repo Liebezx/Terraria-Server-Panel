@@ -1,19 +1,29 @@
 # 🌲 Terraria & TShock Server Manager
-> **Современная кибер-панель управления сервером Terraria 1.4.5.8 & TShock 6.2.1**  
-> *Разработано: **Liebe** (Discord: `liebe213`)*
+> **Автономный графический серверный комплекс Terraria 1.4.5.8 & TShock 6.2.1 с кибер-панелью управления**  
+> *Разработчик: **Liebe** (Discord: `liebe213`)*
 
+[![Release](https://img.shields.io/github/v/release/Liebezx/Terraria-Server-Panel?color=00ff9d&label=Installer%20v2.0)](https://github.com/Liebezx/Terraria-Server-Panel/releases/latest)
 [![Terraria Version](https://img.shields.io/badge/Terraria-1.4.5.8-green.svg?logo=terraria)](https://terraria.org/)
 [![TShock Version](https://img.shields.io/badge/TShock-6.2.1-blue.svg)](https://github.com/Pryaxis/TShock)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python)](https://python.org)
-[![UI](https://img.shields.io/badge/UI-Cyber%20Emerald-00ff9d.svg)](#галерея-всех-вкладок)
-[![Architecture](https://img.shields.io/badge/Architecture-x64%20Windows-lightgrey.svg)]()
+[![UI](https://img.shields.io/badge/UI-Cyber%20Emerald-00ff9d.svg)](#галерея-всех-вкладок-панели)
+[![Windows](https://img.shields.io/badge/Platform-Windows%20x64-0078d4.svg?logo=windows)]()
+
+---
+
+## ⚡ Фирменный мастер установки (Setup Wizard)
+
+Комплекс поставляется в виде единого автономного установщика **`Terraria_Server_Setup.exe`**, который автоматически настраивает брандмауэр, интеграцию с Playit.gg, ярлыки на рабочем столе и все компоненты сервера без необходимости что-либо настраивать вручную.
+
+![Мастер установки](Panel/screenshots/00_installer_wizard.png)
+
+### 📥 [Скачать официальный установщик (Terraria_Server_Setup.exe)](https://github.com/Liebezx/Terraria-Server-Panel/releases/latest)
 
 ---
 
 ## 📸 Галерея всех вкладок панели
 
 ### 1. 🖥️ Сервер — Главная панель и быстрые действия
-> Состояние сервера, время работы, туннель Playit.gg для друзей без белого IP и переключение профилей.
+> Состояние сервера, время работы, туннель Playit.gg для подключения друзей без белого IP и переключение профилей.
 ![01_server_overview](Panel/screenshots/01_server_overview.png)
 
 ---
@@ -60,32 +70,23 @@
 
 ---
 
-## ⚡ Особенности и возможности
+## 🚀 Установка и быстрый старт
 
-- **🎮 Абсолютная автономность**: Для работы не требуется вручную устанавливать Python, базы данных или .NET Runtime — всё упаковано в портативный вид.
-- **🌐 Встроенная Web-панель**: Модуль в папке `Panel/Browser` позволяет управлять сервером удалённо с телефона или планшета через браузер.
-- **🔄 Серверные профили**: Возможность переключаться между разными мирами и конфигурациями в один клик.
-- **🚀 Интеграция с Playit.gg**: Подключение друзей через безопасный туннель без необходимости открывать порты на роутере.
-- **🖱️ Удобная навигация**: Поддержка аппаратных боковых кнопок мыши `Mouse4` (Назад) и `Mouse5` (Вперёд).
-- **✨ Кибер-дизайн**: Анимированные неоновые лучи, интерактивный Spotlight карточек и стеклянный эффект размытия (Glassmorphism).
+1. Скачайте **`Terraria_Server_Setup.exe`** из раздела [Релизы](https://github.com/Liebezx/Terraria-Server-Panel/releases).
+2. Запустите мастер установки и следуйте подсказкам на экране.
+3. По завершении на Рабочем столе появится ярлык **«Панель Terraria»**.
+4. Запустите панель, выберите мир во вкладке **Миры** и нажмите **«Запустить сервер»**!
 
 ---
 
-## 🚀 Быстрый старт
-
-1. Скачайте последний релиз из раздела [Releases](https://github.com/Liebezx/Terraria-Server-Panel/releases).
-2. Распакуйте архив в любую папку.
-3. Запустите **`Запустить Панель.exe`** (или `Запустить Панель.bat`).
-4. Выберите нужный мир во вкладке **Миры** и нажмите **«Запустить сервер»**!
+## 🌟 Возможности сборки
+- **Полная автономность**: Не требует предварительной установки Python, .NET Runtime или баз данных.
+- **Игра с друзьями**: Встроенный безопасный туннель Playit.gg позволяет играть с друзьями без белого IP и проброса портов на роутере.
+- **Удалённый доступ**: Встроенная Web-панель для мониторинга сервера с телефона или планшета через браузер.
+- **Безопасность**: Защита настроек и профилей игроков.
 
 ---
 
-## 🛠️ Запуск из исходного кода (для разработчиков)
-
-```bash
-# Установка необходимых зависимостей
-pip install pywebview pillow requests psutil
-
-# Запуск панели управления
-python "Panel/TerrariaPanel.pyw"
-```
+## 👤 Автор проекта
+- **Разработчик:** Liebe
+- **Discord для связи:** `liebe213`
