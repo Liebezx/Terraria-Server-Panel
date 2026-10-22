@@ -89,9 +89,3 @@ pip install pywebview pillow requests psutil
 # Запуск панели управления
 python "Panel/TerrariaPanel.pyw"
 ```
-
----
-
-## 👤 Авторство
-- **Разработчик:** Liebe
-- **Discord:** `liebe213`
